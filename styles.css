@@ -1,0 +1,24 @@
+.huvudbild-text, .huvudbild-text-liten{
+    color: black;
+}
+
+.huvudbild-text{
+    font-weight: 600;
+}
+
+.huvudbild-text-liten{
+    font-weight: 100;
+}
+
+.w3-third{
+    display: inline-block;
+    width:25% !important;
+}
+
+.w3-round{
+    filter: grayscale(80);
+}
+
+.w3-wide{
+    font-weight: bold;
+}
