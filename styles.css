@@ -15,10 +15,36 @@
     width:25% !important;
 }
 
-.w3-round{
-    filter: grayscale(80);
-}
+
 
 .w3-wide{
     font-weight: bold;
+}
+
+#tour{
+    background-image:url(images/potatis.jpg) !important;
+    background-size: cover;
+    width:100% !important;
+    height: 100%;
+    background-repeat: no-repeat !important;
+    filter:grayscale(30%);
+   background-attachment: fixed;
+}
+#avsnittRubrik{
+    color:black;
+}
+#avsnittUnderRubrik{
+    color:#000000 !important;
+    opacity: 1;
+}
+
+#centered{
+    text-align:center;
+    display: block;
+}
+
+#centeredChild{
+    display: inline-block;
+    margin-left:auto;
+    margin-right:right;
 }
