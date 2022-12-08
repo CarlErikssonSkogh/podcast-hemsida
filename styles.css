@@ -31,11 +31,16 @@
    background-attachment: fixed;
 }
 #avsnittRubrik{
-    color:whitesmoke;
+    color: black;
+    font-weight: 650;
 }
 #avsnittUnderRubrik{
-    color:white !important;
+    margin-top: 10%;
     opacity: 1;
+    font-size: large;
+    color: black;
+    font-weight: 900;
+    margin-bottom: 0;
 }
 
 
@@ -44,3 +49,30 @@
     position:relative;
     left:12%;
 }
+
+.kommandeAvsnitt{
+    border: red;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+#audioFil{
+    width: 90%;
+    margin-top: 1.5%;
+}
+
+.audioContainer{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    text-align: center;
+    color: black;
+    font-weight: 300;
+    border: red;
+    border-style: solid;
+}
+
+#header{
+    background-color: #FFC270;
+ }

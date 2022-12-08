@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Fyra potatisarna podcast</title>
+<title>De fyra potatisarnas podcast</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="styles.css">
@@ -18,7 +18,7 @@ body {font-family: "Lato", sans-serif}
 
 <!-- Navbar -->
 <div class="w3-top">
-  <div class="w3-bar w3-black w3-card">
+  <div class="w3-bar w3-card" id="header">
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
     <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">DE FYRA POTATISARNA</a>
@@ -40,32 +40,34 @@ body {font-family: "Lato", sans-serif}
 <div class="w3-content" style="max-width:2000px;margin-top:46px">
 
   <!-- Automatic Slideshow Images -->
-  <div class="mySlides w3-display-container w3-center">
-    <img src="images/finca-solmark-Sotpotatis-ekologisk.jpg" style="width:100%">
-    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-      <h3 class="huvudbild-text">Carls potatissort</h3>
-      <p class="huvudbild-text-liten"><b>"Lika söt som en sötpotatis"</b></p>   
+  <div id="headPictures">
+    <div class="mySlides w3-display-container w3-center" style="height: 90%;">
+      <img src="images/finca-solmark-Sotpotatis-ekologisk.jpg" style="width:100%" height="90%">
+      <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+        <h3 class="huvudbild-text">Carls potatissort</h3>
+        <p class="huvudbild-text-liten"><b>"Lika söt som en sötpotatis"</b></p>   
+      </div>
     </div>
-  </div>
-  <div class="mySlides w3-display-container w3-center">
-    <img src="images/potatis-i-säck-64410399.jpg" style="width:100%">
-    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-      <h3 class="huvudbild-text">Josephs potatissort</h3>
-      <p class="huvudbild-text-liten"><b>"En riktigt finfin säck"</b></p>    
+    <div class="mySlides w3-display-container w3-center" style="height: 90%;">
+      <img src="images/potatis-i-säck-64410399.jpg" style="width:100%" height="90%">
+      <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+        <h3 class="huvudbild-text">Josephs potatissort</h3>
+        <p class="huvudbild-text-liten"><b>"En riktigt finfin säck"</b></p>    
+      </div>
     </div>
-  </div>
-  <div class="mySlides w3-display-container w3-center">
-    <img src="images/king-edward-rätt.jpg" style="width:100%">
-    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-      <h3 class="huvudbild-text">Edwards potatissort</h3>
-      <p class="huvudbild-text-liten"><b>"Den är najs liksom"</b></p>    
+    <div class="mySlides w3-display-container w3-center" style="height: 90%;">
+      <img src="images/king-edward-rätt.jpg" style="width:100%" height="90%">
+      <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+        <h3 class="huvudbild-text">Edwards potatissort</h3>
+        <p class="huvudbild-text-liten"><b>"Den är najs liksom"</b></p>    
+      </div>
     </div>
-  </div>
-  <div class="mySlides w3-display-container w3-center">
-    <img src="images/ful-potatis-med-groddar.jpg" style="width:100%">
-    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-      <h3 class="huvudbild-text">Olles potatissort</h3>
-      <p class="huvudbild-text-liten"><b>"Ehh naej"</b></p>    
+    <div class="mySlides w3-display-container w3-center" style="height: 90%;">
+      <img src="images/ful-potatis-med-groddar.jpg" style="width:100%" height="90%">
+      <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+        <h3 class="huvudbild-text">Olles potatissort</h3>
+        <p class="huvudbild-text-liten"><b>"Ehh naej"</b></p>    
+      </div>
     </div>
   </div>
 
@@ -81,11 +83,11 @@ body {font-family: "Lato", sans-serif}
       </div>
       <div class="w3-third">
         <p>Joseph Alfredéen</p>
-        <img src="images/Joseph.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:92.0001%">
+        <img src="images/Joseph.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:92%">
       </div>
       <div class="w3-third">
         <p>Edward Lundén</p>
-        <img src="images/Edward.jpg" class="w3-round" alt="Random Name" style="width:92.0%">
+        <img src="images/Edward.jpg" class="w3-round" alt="Random Name" style="width:92%">
       </div>
       <div class="w3-third">
         <p>Olle Langvagen</p>
@@ -98,32 +100,34 @@ body {font-family: "Lato", sans-serif}
   <div class="w3-black" id="tour">
     <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
       <h2 class="w3-wide w3-center" id="avsnittRubrik">Avsnitt</h2>
-      <p class="w3-opacity w3-center" id="avsnittUnderRubrik"><i>Fler avsnitt kommer!</i></p><br>
+        <div class="audioContainer">
+          <p class="twitchtext">Avsnitt 1: Vi diskuterar Twitch framgång och historia samt framtiden i streaming.</p>
+          <audio controls id="audioFil">
+            <source src="audio/Podcast0.mp3" type="audio/ogg">
+          </audio>
+        </div>
 
-        <audio controls>
-          <source src="audio/Podcast0.mp3" type="audio/ogg">
-        </audio>
 
         <p class="w3-opacity w3-center" id="avsnittUnderRubrik"><i>Kommande Podcast Avsnitt!</i></p><br>
 
 
       <div class="w3-row-padding w3-padding-32" id="centeredChild">
         <div class="w3-third w3-margin-bottom" id="centered">
-          <div class="w3-container w3-white">
-            <p><b>Youtube framgång</b></p>
+          <div class="w3-container w3-white kommandeAvsnitt">
+            <p><b>Youtubes framgång</b></p>
             <p class="w3-opacity">Lör 10 Dec 2022</p>
             <p>Vi dyker in i alla Youtubes mörkaste hemligheter.</p>
           </div>
         </div>
         <div class="w3-third w3-margin-bottom">
-          <div class="w3-container w3-white">
-            <p><b>Rysslands hemligheter</b></p>
+          <div class="w3-container w3-white kommandeAvsnitt">
+            <p><b>Putins hemligheter</b></p>
             <p class="w3-opacity">Lör 17 Dec 2022</p>
             <p>Vi diskuterar gåtorna bakom Rysslands teknik.</p>
           </div>
         </div>
         <div class="w3-third w3-margin-bottom">
-          <div class="w3-container w3-white">
+          <div class="w3-container w3-white kommandeAvsnitt">
             <p><b>Dream face reveal!?</b></p>
             <p class="w3-opacity">Lör 24 Dec 2022</p>
             <p>Frågan som vi alla har ställt oss, HUR SER DREAM UT!?</p>
