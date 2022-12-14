@@ -10,13 +10,6 @@
     font-weight: 100;
 }
 
-.w3-third{
-    display: inline-block;
-    width:25% !important;
-}
-
-
-
 .w3-wide{
     font-weight: bold;
 }
@@ -32,7 +25,8 @@
 }
 #avsnittRubrik{
     color: black;
-    font-weight: 650;
+    font-weight: 400;
+    font-size:80px;
 }
 #avsnittUnderRubrik{
     margin-top: 10%;
@@ -43,12 +37,6 @@
     margin-bottom: 0;
 }
 
-
-
-#centeredChild{
-    position:relative;
-    left:12%;
-}
 
 .kommandeAvsnitt{
     border: red;
