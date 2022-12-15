@@ -1,5 +1,6 @@
 .huvudbild-text, .huvudbild-text-liten{
-    color: black;
+    color: aliceblue;
+    background-color: rgba(7, 8, 8, 0.7);
 }
 
 .huvudbild-text{
@@ -15,9 +16,8 @@
 }
 
 #tour{
-    background-image:url(images/gulbakgrund.png) !important;
+    background-image:url(images/podcastBakgrundHörlurar.jpg) !important;
     background-size: cover;
-    background-position: center;
     height: 100%;
     background-repeat: no-repeat !important;
     filter:grayscale(30%);
