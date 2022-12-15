@@ -17,11 +17,10 @@
 #tour{
     background-image:url(images/gulbakgrund.png) !important;
     background-size: cover;
-    width:100% !important;
+    background-position: center;
     height: 100%;
     background-repeat: no-repeat !important;
     filter:grayscale(30%);
-   background-attachment: fixed;
 }
 #avsnittRubrik{
     color: black;
@@ -44,6 +43,7 @@
     border: red;
     border-style: solid;
     border-radius: 15px;
+    display:inline-block;
 }
 
 #audioFil{
